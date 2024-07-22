@@ -1,0 +1,19 @@
+{
+  "name": "p1w1d1",
+  "version": "1.0.0",
+  "description": "1. Проверьте, что Node установлена через NVM 2. Если есть файл `package.json`, то нужно выполнить `npm i` 3. Если нет файла `package.json`, то нужно выполнить инициализацию    1. Создать `package.json` через `npm init`    2. Создать `.gitignore`    3. Проинициализировать git `git init`    4. Настроить линтер ESLint `npm init @eslint/config`    5. Настроить форматтер Prettier    6. Прописать стартовый скрипт    7. Установить требуемые пакеты",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@elbrus/eslint-config": "^1.0.0",
+    "@eslint/js": "^9.7.0",
+    "@faker-js/faker": "^8.4.1",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0"
+  }
+}
